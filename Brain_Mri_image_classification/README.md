@@ -30,11 +30,13 @@ Brain-MRI-Classification-TF-Final/
 │           ├── ischemic/
 │           └── hemorrhagic/
 │
-├── figures/              # Visuals used below
-│   ├── model_architecture.png
-│   ├── sample_image.png
-│   ├── training_curves.png
-│   └── prediction_output.png
+figures/
+├── model_architecture.png
+├── training_curves.png
+├── Ischemic_Stroke.jpg
+├── Hemorrhagic_stroke.jpeg
+├── Ischemic_pred_labeled.png
+├── Hemorrhagic_pred_labeled.png
 │
 ├── notebooks/            # Jupyter notebook (demo)
 ├── experiments/          # Model outputs
@@ -60,7 +62,15 @@ A simple CNN built using Keras sequential API.
 
 ## 🧠 Sample MRI Input
 
-![Sample MRI](figures/sample_image.png)
+### 🩺 Ischemic Stroke
+<p align="center">
+  <img src="figures/Ischemic_Stroke.jpg" alt="Ischemic Stroke MRI" width="60%">
+</p>
+
+### 🧩 Hemorrhagic Stroke
+<p align="center">
+  <img src="figures/Hemorrhagic_stroke.jpeg" alt="Hemorrhagic Stroke MRI" width="60%">
+</p>
 
 Each MRI scan is preprocessed (grayscale, 224×224, normalized) before training.
 
@@ -109,9 +119,14 @@ python src/evaluate_tf.py
 
 ## 🧾 Prediction Output Example
 
-![Prediction Output](figures/prediction_output.png)
+<p align="center">
+  <img src="figures/Ischemic_pred_labeled.png" alt="Predicted Ischemic Stroke" width="45%">
+  <img src="figures/Hemorrhagic_pred_labeled.png" alt="Predicted Hemorrhagic Stroke" width="45%">
+</p>
 
-*Predicted class: Ischemic (Confidence ≈ 0.86)*
+<p align="center"><b>Pred: Ischemic (0.86)</b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>Pred: Hemorrhagic (0.89)</b></p>
+
+*Model accurately distinguishes between stroke types based on MRI input.*
 
 ---
 
