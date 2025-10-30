@@ -2,7 +2,7 @@
 # 🧠 Brain MRI Image Classification (TensorFlow)
 
 **Author:** Rahul Trivedi  
-   M.Tech ( ECE) 
+   M.Tech ( ECE ) 
 📩 rahultrivedi106@gmail.com  
 
 ---
