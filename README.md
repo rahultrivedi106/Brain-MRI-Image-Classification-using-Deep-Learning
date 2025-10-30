@@ -117,11 +117,15 @@ python src/evaluate_tf.py
 
 ## 🧾 Prediction Output Example
 
-![Prediction Output](Brain_Mri_image_classification/figures/prediction_output.png)
+<p align="center">
+  <img src="Brain_Mri_image_classification/figures/Ischemic_pred_labeled.png" alt="Predicted Ischemic Stroke" width="45%">
+  <img src="Brain_Mri_image_classification/figures/Hemorrhagic_pred_labeled.png" alt="Predicted Hemorrhagic Stroke" width="45%">
+</p>
 
-*Predicted class: Ischemic (Confidence ≈ 0.86)*
+<p align="center"><b>Pred: Ischemic (0.86)</b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>Pred: Hemorrhagic (0.89)</b></p>
 
----
+*Model accurately distinguishes between stroke types based on MRI input.*
+
 
 ## 💾 Dataset Information
 - Dataset included: **Synthetic MRI dataset (Ischemic vs Hemorrhagic)**  
