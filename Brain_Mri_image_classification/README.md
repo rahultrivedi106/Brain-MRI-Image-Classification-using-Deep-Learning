@@ -119,10 +119,6 @@ python src/evaluate_tf.py
 - Dataset included: **Synthetic MRI dataset (Ischemic vs Hemorrhagic)**  
 - Inspired by the Kaggle public dataset:  
   [_Brain MRI Images for Brain Tumor Detection_](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
-
-To use real Kaggle data:
-```bash
-kaggle datasets download -d navoneel/brain-mri-images-for-brain-tumor-detection -p data/raw --unzip
 ```
 
 ---
