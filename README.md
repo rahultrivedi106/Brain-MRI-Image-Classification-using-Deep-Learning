@@ -1,6 +1,13 @@
 
 # 🧠 Brain MRI Image Classification (TensorFlow)
 
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12-orange)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+
 **Author:** Rahul Trivedi  
    M.Tech ( ECE ) 
 📩 rahultrivedi106@gmail.com  
