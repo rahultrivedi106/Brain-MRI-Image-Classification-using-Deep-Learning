@@ -21,7 +21,7 @@ Brain-MRI-Classification-TF-Final/
 │   ├── evaluate_tf.py
 │   └── preprocess.py
 │
-├── data/                 # Synthetic MRI dataset (demo)
+├── data/                 #  MRI dataset (demo)
 │   └── raw/
 │       ├── train/
 │       │   ├── ischemic/
@@ -30,18 +30,22 @@ Brain-MRI-Classification-TF-Final/
 │           ├── ischemic/
 │           └── hemorrhagic/
 │
-├── figures/              # Visuals used below
+├── figures/              # Visuals and outputs
 │   ├── model_architecture.png
-│   ├── sample_image.png
 │   ├── training_curves.png
-│   └── prediction_output.png
+│   ├── sample_image.png
+│   ├── prediction_output.png
+│   ├── Ischemic_Stroke.jpg
+│   ├── Hemorrhagic_stroke.jpeg
+│   ├── Ischemic_pred_labeled.png
+│   └── Hemorrhagic_pred_labeled.png
 │
 ├── notebooks/            # Jupyter notebook (demo)
-├── experiments/          # Model outputs
+├── experiments/          # Model outputs (weights, logs, metrics)
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-```
+
 
 ---
 
