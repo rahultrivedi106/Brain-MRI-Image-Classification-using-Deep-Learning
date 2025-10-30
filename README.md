@@ -60,11 +60,15 @@ A simple CNN built using Keras sequential API.
 
 ## 🧠 Sample MRI Input
 
-![Sample MRI](Brain_Mri_image_classification/figures
-/Ischemic Stroke.jpg)
+### 🩺 Ischemic Stroke
+<p align="center">
+  <img src="Brain_Mri_image_classification/figures/Ischemic%20Stroke.jpg" alt="Ischemic Stroke MRI" width="60%">
+</p>
 
-(Brain_Mri_image_classification/figures/Hamorrhagic stroke.jpeg)
-
+### 🧩 Hemorrhagic Stroke
+<p align="center">
+  <img src="Brain_Mri_image_classification/figures/Hemorrhagic%20stroke.jpeg" alt="Hemorrhagic Stroke MRI" width="60%">
+</p>
 
 Each MRI scan is preprocessed (grayscale, 224×224, normalized) before training.
 
