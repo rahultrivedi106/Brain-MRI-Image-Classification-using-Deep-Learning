@@ -60,7 +60,8 @@ A simple CNN built using Keras sequential API.
 
 ## 🧠 Sample MRI Input
 
-![Sample MRI](Brain_Mri_image_classification/figures/Ischemic Stroke.jpg)
+![Sample MRI](Brain_Mri_image_classification/figures
+/Ischemic Stroke.jpg)
 
 (Brain_Mri_image_classification/figures/Hamorrhagic stroke.jpeg)
 
