@@ -1,3 +1,4 @@
+
 # 🧠 Brain MRI Image Classification (TensorFlow)
 
 **Author:** Rahul Trivedi  
@@ -30,22 +31,20 @@ Brain-MRI-Classification-TF-Final/
 │           ├── ischemic/
 │           └── hemorrhagic/
 │
-├── figures/              # Visuals and outputs
-│   ├── model_architecture.png
-│   ├── training_curves.png
-│   ├── sample_image.png
-│   ├── prediction_output.png
-│   ├── Ischemic_Stroke.jpg
-│   ├── Hemorrhagic_stroke.jpeg
-│   ├── Ischemic_pred_labeled.png
-│   └── Hemorrhagic_pred_labeled.png
+figures/
+├── model_architecture.png
+├── training_curves.png
+├── Ischemic_Stroke.jpg
+├── Hemorrhagic_stroke.jpeg
+├── Ischemic_pred_labeled.png
+├── Hemorrhagic_pred_labeled.png
 │
 ├── notebooks/            # Jupyter notebook (demo)
-├── experiments/          # Model outputs (weights, logs, metrics)
+├── experiments/          # Model outputs
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
+```
 
 ---
 
@@ -66,12 +65,12 @@ A simple CNN built using Keras sequential API.
 
 ### 🩺 Ischemic Stroke
 <p align="center">
-  <img src="figures/Ischemic_Stroke.jpg" alt="Ischemic Stroke MRI" width="60%">
+  <img src="Brain_Mri_image_classification/figures/Ischemic Stroke.jpg" alt="Ischemic Stroke MRI" width="60%">
 </p>
 
 ### 🧩 Hemorrhagic Stroke
 <p align="center">
-  <img src="figures/Hemorrhagic_stroke.jpeg" alt="Hemorrhagic Stroke MRI" width="60%">
+  <img src="Brain_Mri_image_classification/figures/Hemorrhagic stroke.jpeg" alt="Hemorrhagic Stroke MRI" width="60%">
 </p>
 
 Each MRI scan is preprocessed (grayscale, 224×224, normalized) before training.
@@ -130,6 +129,7 @@ python src/evaluate_tf.py
 
 *Model accurately distinguishes between stroke types based on MRI input.*
 
+---
 
 ## 💾 Dataset Information
 - Dataset included: **Synthetic MRI dataset (Ischemic vs Hemorrhagic)**  
@@ -153,7 +153,7 @@ python src/evaluate_tf.py
 
 **Data Loading → Preprocessing → Model Training → Validation → Evaluation → Visualization**
 
-![Flowchart](Brain_Mri_image_classification/figures/model_architecture.png)
+![Flowchart](figures/model_architecture.png)
 
 ---
 
