@@ -48,7 +48,7 @@ Brain-MRI-Classification-TF-Final/
 ## 🧩 Model Architecture
 A simple CNN built using Keras sequential API.
 
-![Model Architecture](figures/model_architecture.png)
+![Model Architecture](Brain_Mri_image_classification/figures/model_architecture.png)
 
 **Architecture Summary**
 - Input: 224×224 grayscale MRI image  
@@ -60,7 +60,7 @@ A simple CNN built using Keras sequential API.
 
 ## 🧠 Sample MRI Input
 
-![Sample MRI](figures/sample_image.png)
+![Sample MRI](Brain_Mri_image_classification/figures/sample_image.png)
 
 Each MRI scan is preprocessed (grayscale, 224×224, normalized) before training.
 
@@ -101,7 +101,7 @@ python src/evaluate_tf.py
 
 ## 📊 Training Curves
 
-![Training Curves](figures/training_curves.png)
+![Training Curves](Brain_Mri_image_classification/figures/training_curves.png)
 
 *Training accuracy and validation accuracy show consistent convergence.*
 
@@ -109,7 +109,7 @@ python src/evaluate_tf.py
 
 ## 🧾 Prediction Output Example
 
-![Prediction Output](figures/prediction_output.png)
+![Prediction Output](Brain_Mri_image_classification/figures/prediction_output.png)
 
 *Predicted class: Ischemic (Confidence ≈ 0.86)*
 
@@ -137,7 +137,7 @@ python src/evaluate_tf.py
 
 **Data Loading → Preprocessing → Model Training → Validation → Evaluation → Visualization**
 
-![Flowchart](figures/model_architecture.png)
+![Flowchart](Brain_Mri_image_classification/figures/model_architecture.png)
 
 ---
 
