@@ -8,7 +8,7 @@ _Independent Researcher, M.Tech_
 
 ## 📘 Overview
 This repository presents a **TensorFlow-based Convolutional Neural Network (CNN)** for automatic **Brain MRI image classification**, distinguishing between *Ischemic* and *Hemorrhagic* stroke types.  
-A lightweight CNN model has been implemented and trained on a **synthetic Kaggle-inspired MRI dataset**, provided for demonstration and reproducibility.
+A lightweight CNN model has been implemented and trained on a **Kaggle MRI dataset**, provided for demonstration and reproducibility.
 
 ---
 
