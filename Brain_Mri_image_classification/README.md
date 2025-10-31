@@ -164,14 +164,15 @@ python src/evaluate_tf.py
 ---
 
 ## 🧱 Dependencies
-```
-tensorflow==2.12.0
-numpy
-pillow
-matplotlib
-scikit-learn
-opencv-python
-tqdm
+
+- tensorflow==2.12.0  
+- numpy  
+- pillow  
+- matplotlib  
+- scikit-learn  
+- opencv-python  
+- tqdm  
+
 ```
 
 ---
