@@ -187,7 +187,6 @@ MIT License © 2025 Rahul Trivedi
 ## 📧 Contact
 **Rahul Trivedi**  
 📩 rahultrivedi106@gmail.com  
-_Independent Researcher, M.Tech_
 
 ---
 
