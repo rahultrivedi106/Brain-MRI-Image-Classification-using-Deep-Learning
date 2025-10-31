@@ -165,14 +165,15 @@ python src/evaluate_tf.py
 ---
 
 ## 🧱 Dependencies
-```
-tensorflow==2.12.0
-numpy
-pillow
-matplotlib
-scikit-learn
-opencv-python
-tqdm
+
+- tensorflow==2.12.0  
+- numpy  
+- pillow  
+- matplotlib  
+- scikit-learn  
+- opencv-python  
+- tqdm  
+
 
 ```
 
@@ -187,6 +188,6 @@ MIT License © 2025 Rahul Trivedi
 ## 📧 Contact
 **Rahul Trivedi**  
 📩 rahultrivedi106@gmail.com  
-_Independent Researcher, M.Tech_
+
 
 ---
