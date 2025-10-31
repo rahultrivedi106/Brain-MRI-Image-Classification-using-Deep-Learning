@@ -176,6 +176,7 @@ tqdm
 ```
 
 ---
+📘 This project has been developed purely for educational and research purposes.
 
 ## 📜 License
 MIT License © 2025 Rahul Trivedi
